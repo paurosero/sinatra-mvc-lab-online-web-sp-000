@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
   
   post '/piglatinze' do
-    @piglatinized_word = Piglatinizer.new(params[:user_phrase])
+    @piglatinizer = Piglatinizer.new(params[:user_phrase])
     
   end 
 
