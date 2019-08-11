@@ -11,6 +11,11 @@ class PigLatinizer
   end
   
   def piglatinize_word(word)
-    
+    first_letter = word[0]
+    if ["a", "e", "i", "o", "u"].include?(first_letter)
+      
+    else
+      
+    end
   end
 end
