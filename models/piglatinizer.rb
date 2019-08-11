@@ -8,5 +8,6 @@ class PigLatinizer
   def piglatinize(string)
     binding.pry 
     piglat_string = string.split(" ").map {|word| piglatinize_word(word) }
+    piglat_string.join (" ")
   end
 end
