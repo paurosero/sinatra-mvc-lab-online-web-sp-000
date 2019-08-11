@@ -5,8 +5,8 @@ class PigLatinizer
     @word = word.downcase
   end
   
-  def piglatinize(word)
+  def piglatinize(string)
     binding.pry 
-    word.split(" ")
+    piglat_string = string.split(" ")
   end
 end
