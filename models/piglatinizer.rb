@@ -5,7 +5,7 @@ class PigLatinizer
     @word = word.downcase
   end
   
-  def piglatinize
+  def piglatinize(word)
     
   end
 end
