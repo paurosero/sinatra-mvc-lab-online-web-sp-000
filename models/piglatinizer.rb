@@ -10,4 +10,8 @@ class PigLatinizer
     piglat_string = string.split(" ").map {|word| piglatinize_word(word) }
     piglat_string.join (" ")
   end
+  
+  def piglatinize_word(word)
+    
+  end
 end
