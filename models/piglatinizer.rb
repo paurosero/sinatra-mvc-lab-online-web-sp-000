@@ -14,7 +14,7 @@ class PigLatinizer
   def piglatinize_word(word)
     first_letter = word[0]
     if ["a", "e", "i", "o", "u"].include?(first_letter)
-      "#{word}yay"
+      "#{word}way"
     else
       consonants = []
       consonants << word[0]
