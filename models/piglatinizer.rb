@@ -6,6 +6,7 @@ class PigLatinizer
   end
   
   def piglatinize(word)
+    binding.pry 
     word.split(" ")
   end
 end
